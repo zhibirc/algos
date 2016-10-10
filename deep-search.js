@@ -23,6 +23,7 @@ function deepSearch ( dirPath, startPoint, searchRequest ) {
             }
         } else {
             deepSearch.scale.push(i);
+            deepSearch(newDirPath, 0);
         }
     }
 
