@@ -23,7 +23,7 @@ function deepSearch ( dirPath, startPoint, searchRequest ) {
             }
         } else {
             deepSearch.scale.push(i);
-            deepSearch(newDirPath, 0);
+            deepSearch(newDirPath, 0); // pseudo code
         }
     }
 
